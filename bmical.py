@@ -24,7 +24,7 @@ if height != 0:
 
     st.markdown(f"**Category:** {category}")
 
-    image_filename = f"images/{category.lower()}_{gender.lower()}.png"
+    image_filename = f"{category.lower()}_{gender.lower()}.png"
 
     st.image(image_filename, width=250)
 
